@@ -1,2 +1,63 @@
 body {
+  font-family: Verdana; }
+
+body {
   margin: 0; }
+
+.container {
+  width: 72%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative; }
+  .container .card {
+    margin: 2.6em 0 0 0;
+    display: flex; }
+    .container .card--timestamp {
+      width: 15%;
+      text-align: right; }
+    .container .card--date {
+      font-size: .8em;
+      margin: 0;
+      color: #D4DBE1; }
+    .container .card--time {
+      font-size: 2.5em;
+      margin-top: .1em;
+      color: #70C0EE; }
+    .container .card:nth-of-type(even) .card--time {
+      color: #3B95CB; }
+    .container .card--timeline {
+      width: 10%;
+      height: 100%; }
+    .container .card--timestop {
+      margin: -5px auto 0 auto;
+      height: 35px;
+      width: 35px;
+      background-color: #48A3D9;
+      border-radius: 50px;
+      border: 7px solid #B1DCF8; }
+      .container .card--timestop--line {
+        width: 5px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #B1DCF8; }
+    .container .card--content {
+      width: 75%;
+      border-radius: 5px;
+      color: #eee;
+      background-color: #70C0EE; }
+    .container .card:nth-last-of-type(even) .card--content {
+      background-color: #3B95CB; }
+    .container .card--container {
+      width: 90%;
+      margin: 0 auto; }
+    .container .card--header {
+      width: 100%;
+      margin: 1.5em 0 0 0;
+      padding: 0 0 .5em 0;
+      border-bottom: 2px solid #87CAF0;
+      font-size: 1.8rem; }
+    .container .card--info {
+      font-size: 1.1em;
+      line-height: 1.5em;
+      padding: 0 0 1.5em 0; }
